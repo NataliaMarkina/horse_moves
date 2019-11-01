@@ -1,0 +1,38 @@
+body {
+  font-family: 'Tinos', serif;
+  font-size: 1.5em;
+  text-align: center;
+  color: #000000;
+}
+
+div {
+  width:800px;
+  margin: auto;
+}
+
+[data-view="cell"] {
+  width: 72px;
+  height: 72px;
+  float: left;
+  cursor: pointer;
+  background-color: #ffffff;
+  border: 1px solid gray;
+}
+
+[id="A1"], [id="C1"], [id="E1"], [id="G1"],
+[id="B2"], [id="D2"], [id="F2"], [id="H2"],
+[id="A3"], [id="C3"], [id="E3"], [id="G3"],
+[id="B4"], [id="D4"], [id="F4"], [id="H4"],
+[id="A5"], [id="C5"], [id="E5"], [id="G5"],
+[id="B6"], [id="D6"], [id="F6"], [id="H6"],
+[id="A7"], [id="C7"], [id="E7"], [id="G7"],
+[id="B8"], [id="D8"], [id="F8"], [id="H8"] {
+	background-color: black;
+}
+
+[id="0"], [id="1"], [id="2"], [id="3"],
+[id="4"], [id="5"], [id="6"], [id="7"],
+[id="8"], [id="9"], [id="10"] {
+	border: 1px solid white;
+	text-align: center;
+}
